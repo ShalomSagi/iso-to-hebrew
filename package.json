@@ -1,13 +1,18 @@
 {
-  "name": "iso-639-to-heb",
-  "version": "1.0.0",
+  "name": "iso-to-hebrew",
+  "version": "1.0.1",
   "description": "Converts iso-639 codes to the full Hebrew language name",
-  "main": "index.js",
+  "main": "lib/isoToHebrew.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShalomSagi/iso-to-hebrew.git"
   },
   "files": [
     "lib/**/*"

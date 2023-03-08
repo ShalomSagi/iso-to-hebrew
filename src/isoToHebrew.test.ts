@@ -1,4 +1,4 @@
-import isoToHebrew from "./convert"
+import isoToHebrew from "./isoToHebrew"
 
 describe("Covert language codes to Hebrew names", () => {
   test("Hebrew", () => {
