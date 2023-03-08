@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Converts iso-639 codes to the full Hebrew language name",
   "main": "lib/isoToHebrew.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/isoToHebrew.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
