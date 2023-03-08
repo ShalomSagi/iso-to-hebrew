@@ -1,8 +1,6 @@
 # iso-to-hebrew
 The iso-to-hebrew package is a simple utility for converting ISO 639-1 language codes to their corresponding Hebrew names.
 
-All the language names was translated on Google Translate. The most popular languages are tested to look good, but if you see anything funny on an unpopular language name, feel free to open a PR or an issue and we'll get this fixed as soon as possible.
-
 ## Installation
 To install the package, use npm:
 
@@ -21,13 +19,17 @@ The package exposes a single function called isoToHebrew. This function takes tw
 Here is an example of how to use the isoToHebrew function:
 
 ```js
-const { isoToHebrew } = require('iso-to-hebrew');
+import isoToHebrew from 'iso-to-hebrew';
 
 console.log(isoToHebrew('en')); // 'אנגלית'
 console.log(isoToHebrew('he')); // 'עברית'
 console.log(isoToHebrew('zz')); // ''
 console.log(isoToHebrew('zz', 'לא ידוע')); // 'לא ידוע'
 
-// The function will ignore locale strings
+// The function will ignore dashes
 console.log(isoToHebrew('en-US')); // 'אנגלית'
 ```
+
+## Known Issues
+All the language names was translated using Google Translate. The most popular languages are tested to look good, but it's possible that some unpopular languages might result an inaccurate name.
+If you find anything funny, feel free to open a PR or an issue and it will be fixed as soon as possible.
