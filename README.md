@@ -1,4 +1,6 @@
 # iso-to-hebrew
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+
 The iso-to-hebrew package is a simple utility for converting ISO 639-1 language codes to their corresponding Hebrew names.
 
 ## Installation
@@ -29,6 +31,11 @@ console.log(isoToHebrew('zz', 'לא ידוע')); // 'לא ידוע'
 // The function will ignore dashes
 console.log(isoToHebrew('en-US')); // 'אנגלית'
 ```
+
+## Contributing
+Thank you for considering contributing to our library! We welcome any and all contributions, whether it be bug fixes, new features, or documentation improvements.
+
+Before making any contributions, please review our [contribution guide](https://github.com/ShalomSagi/iso-to-hebrew/blob/main/CONTRIBUTE.md) for guidelines on how to contribute effectively and efficiently.
 
 ## Known Issues
 All the language names was translated using Google Translate. The most popular languages are tested to look good, but it's possible that some unpopular languages might result an inaccurate name.
