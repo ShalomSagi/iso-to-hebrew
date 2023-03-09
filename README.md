@@ -38,5 +38,4 @@ Thank you for considering contributing to our library! We welcome any and all co
 Before making any contributions, please review our [contribution guide](https://github.com/ShalomSagi/iso-to-hebrew/blob/main/CONTRIBUTING.md) for guidelines on how to contribute effectively and efficiently.
 
 ## Known Issues
-All the language names was translated using Google Translate. The most popular languages are tested to look good, but it's possible that some unpopular languages might result an inaccurate name.
-If you find anything funny, feel free to open a PR or an issue and it will be fixed as soon as possible.
+All the language names in our library were translated from English to Hebrew using Google Translate. While the most popular languages have been thoroughly tested and reviewed to ensure accuracy, it's possible that some less commonly used languages may result in incorrect translations. We welcome and encourage contributions from our users to help identify and correct any issues. If you notice any inaccuracies or find something that seems off, please don't hesitate to open a pull request or issue and we'll work to fix it as soon as possible.
