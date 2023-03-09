@@ -33,7 +33,7 @@ console.log(isoToHebrew('he')); // 'עברית'
 console.log(isoToHebrew('zz')); // ''
 console.log(isoToHebrew('zz', 'לא ידוע')); // 'לא ידוע'
 
-// The function will ignore dashes
+// Dashes will be ignored
 console.log(isoToHebrew('en-US')); // 'אנגלית'
 ```
 
