@@ -1,7 +1,7 @@
 {
   "name": "iso-to-hebrew",
   "version": "1.0.3",
-  "description": "Converts iso-639 codes to the full Hebrew language name",
+  "description": "A simple util for converting ISO 639-1 language codes to their corresponding Hebrew names.",
   "main": "lib/isoToHebrew.js",
   "types": "lib/isoToHebrew.d.ts",
   "scripts": {
