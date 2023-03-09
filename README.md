@@ -35,7 +35,7 @@ console.log(isoToHebrew('en-US')); // 'אנגלית'
 ## Contributing
 Thank you for considering contributing to our library! We welcome any and all contributions, whether it be bug fixes, new features, or documentation improvements.
 
-Before making any contributions, please review our [contribution guide](https://github.com/ShalomSagi/iso-to-hebrew/blob/main/CONTRIBUTE.md) for guidelines on how to contribute effectively and efficiently.
+Before making any contributions, please review our [contribution guide](https://github.com/ShalomSagi/iso-to-hebrew/blob/main/CONTRIBUTING.md) for guidelines on how to contribute effectively and efficiently.
 
 ## Known Issues
 All the language names was translated using Google Translate. The most popular languages are tested to look good, but it's possible that some unpopular languages might result an inaccurate name.
