@@ -6,15 +6,20 @@ The iso-to-hebrew package is a simple utility for converting ISO 639-1 language 
 ## Installation
 To install the package, use npm:
 
+### NPM
 ```bash
 npm install iso-to-hebrew
+```
+### YARN
+```bash
+yarn add iso-to-hebrew
 ```
 
 ## Usage
 The package exposes a single function called isoToHebrew. This function takes two parameters:
 
-`isoCode` (required): A string representing an ISO 639-1 language code.
-`defaultValue` (optional): A string representing a default value to return in case the isoCode parameter is not a recognized ISO 639-1 language code. An empty string will be returned as default.
+- `isoCode` (required): A string representing an ISO 639-1 language code.
+- `defaultValue` (optional): A string representing a default value to return in case the isoCode parameter is not a recognized ISO 639-1 language code. An empty string will be returned as default.
 
 
 ## Example
