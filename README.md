@@ -4,7 +4,7 @@
 The iso-to-hebrew package is a simple utility for converting ISO 639-1 language codes to their corresponding Hebrew names.
 
 ## Installation
-To install the package, use npm:
+To install the package, run the following commands:
 
 ### NPM
 ```bash
